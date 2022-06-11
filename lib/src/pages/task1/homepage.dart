@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:kawchar_project/src/controller/productController.dart';
 import 'package:kawchar_project/src/model/productData.dart';
-import 'package:kawchar_project/src/pages/detailsPage.dart';
+import 'package:kawchar_project/src/pages/task1/detailsPage.dart';
 
 class HomePage extends StatelessWidget {
   HomePage({Key? key}) : super(key: key);

@@ -2,12 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:kawchar_project/src/model/productData.dart';
 
-import '../controller/productController.dart';
+import '../../controller/productController.dart';
 
 class DetailsPage extends StatelessWidget {
   DetailsPage({Key? key, required this.productData}) : super(key: key);
 
   ProductData productData;
+  TextEditingController searchController=TextEditingController();
 
   @override
   Widget build(BuildContext context) {
@@ -97,6 +98,33 @@ class DetailsPage extends StatelessWidget {
                 width: size.width,
                 child: buildProductColor(productData.productColors!)
               ),
+
+              // SizedBox(height: 20,),
+              // TextField(
+              //   controller: searchController,
+              //   decoration: InputDecoration(
+              //     prefixIcon: Icon(Icons.search),
+              //     hintText: 'Search here',
+              //     suffixIconConstraints: const BoxConstraints(
+              //       minWidth: 2,
+              //       minHeight: 2,
+              //     ),
+              //     suffix: Builder(
+              //       builder: (context) {
+              //          return GestureDetector(
+              //             onTap: (){
+              //               searchController.clear();
+              //             },
+              //             child: const Padding(
+              //                padding: EdgeInsets.only(right: 8),
+              //                child: Icon(Icons.close, size: 14,),
+              //             )
+              //             );
+              //           }
+              //       ),
+              //     border: OutlineInputBorder()
+              //   ),
+              // )
             ],
           ),
         )
