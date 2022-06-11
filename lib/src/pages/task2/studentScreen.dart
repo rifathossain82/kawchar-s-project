@@ -27,7 +27,9 @@ class StudentScreen extends StatelessWidget {
                 onPressed: (){
                   studentController.changeText();
                 },
-                child: Text('Change Text')
+                child: Obx((){
+                  return Text(studentController.isUpper.value? "Lower" : "Upper");
+                }),
             ),
           ],
         ),
