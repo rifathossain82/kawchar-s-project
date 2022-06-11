@@ -1,16 +1,7 @@
-# kawchar_project
+basically, to help my friend with handling data I created this project, where he got an error. Here I used rest API to show product data. And I use GetX state management
 
-A new Flutter project.
+Tried to show data as simple as possible.
+So, ignore my UI design
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot_20220606-234032](https://user-images.githubusercontent.com/88751768/172216613-87a58d2c-8410-4668-b6ba-f999b8390fad.png)
+![Screenshot_20220606-234044](https://user-images.githubusercontent.com/88751768/172216642-0e61b666-7d23-4210-957a-0cb069c091a5.png)
